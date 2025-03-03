@@ -60,3 +60,17 @@ let y  = 2;
 x = x + y++
 console.log(x,y)
 // 3 3
+let m =  [1,2,3];
+let n  = [...m];
+n[0] = 4
+console.log(m[0],n[0])
+//1 4
+
+
+let number =  [1,2,3];
+number= number.map(n=>n*2)
+console.log(number)
+// number[10]  = 10;
+// console.log(number.length)
+
+
