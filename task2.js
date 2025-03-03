@@ -25,7 +25,38 @@ count2()
 // 0101
 
 console.log(foo)
-varfoo =  "Hello"
+var foo =  "Hello"
 console.log(foo)
 
 // ReferenceError
+
+// function sum( extra,...numbers){
+//     return numbers.reduce((acc, num) => ace+ num,0)+extra
+// }
+
+
+// const [user, setUser] =useState({name: "nahid", ago: 25})
+// function update(){
+//     setUser({ago:19})
+// }
+
+console.log(1+"2"+3)
+
+function multi(x,y=2){
+    return x*y;
+}
+console.log(multi(5))
+console.log(multi(5, undefined))
+console.log(multi(5, null))
+
+const a =[1,2,3]
+const b = a
+b.push(4)
+console.log(a)
+// [ 1, 2, 3, 4 ]
+
+let x =  1;
+let y  = 2;
+x = x + y++
+console.log(x,y)
+// 3 3
