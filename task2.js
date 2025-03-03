@@ -7,6 +7,8 @@ User.prototype.sayHello = () =>{
 const user1 = new User('Alice')
 user1.sayHello();
 
+// Hello, undefined
+
 
 function counter(){
     let count = 0
@@ -20,3 +22,10 @@ count1()
 const count2 = counter()
 count2()
 count2()
+// 0101
+
+console.log(foo)
+varfoo =  "Hello"
+console.log(foo)
+
+// ReferenceError
